@@ -1,0 +1,25 @@
+{
+  "name": "snake.io_finalproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf dist/ && mkdir dist/",
+    "build": "cp -R js css dist/ && cp index.html dist/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CJ32000/COMD3663-Final-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CJ32000/COMD3663-Final-Project/issues"
+  },
+  "homepage": "https://github.com/CJ32000/COMD3663-Final-Project#readme",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
